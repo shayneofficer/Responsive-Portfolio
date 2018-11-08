@@ -57,6 +57,7 @@ li a {
     background-color: #ffffff;
     box-sizing: border-box;
     padding: 20px;
+    margin-bottom: 10rem;
 }
 
 hr {
@@ -79,9 +80,9 @@ p {
 footer {
     background-color: #666666; 
     text-align: center;
-    color: #777777;
+    color: #aaa;
     border-top: 5px solid #4aaaa5;
-    padding-top: 30px;
+    padding: 1.5rem;
     position: fixed;
     bottom: 0px;
     width: 100%;
@@ -147,7 +148,28 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    header {
+        width: 100%;
+    }
 
+    .navbar {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .jumbotron {
+        width: 95%;
+        margin: 3rem auto;
+        margin-bottom: 6rem;
+    }
+
+    .navbar ul li {
+        margin-left: 1rem;
+    }
+
+    #profile-picture {
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 640px) {
