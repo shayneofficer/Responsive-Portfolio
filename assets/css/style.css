@@ -130,6 +130,19 @@ footer {
 }
 
 @media screen and (max-width: 980px) {
+    .navbar {
+        width: 90%;
+    }
+
+    .jumbotron {
+        width: 66.6%;
+        margin: 3rem;
+        margin-bottom: 6rem;
+    }
+
+    .project-links img {
+        width: 45%;
+    }
 
 }
 
@@ -160,7 +173,6 @@ footer {
         position: static;
         display: flex;
         justify-content: center;
-        /* padding: 1em; */
         font-size: 1.5rem;
         box-sizing: border-box;
     }
